@@ -148,6 +148,6 @@ footer p {
   }
 
   .content {
-    top: 0;
+    margin-left: -80px;
   }
 }
