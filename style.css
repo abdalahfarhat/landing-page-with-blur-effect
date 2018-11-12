@@ -118,13 +118,11 @@ footer p {
   .content {
     top: 5%;
     margin-top: 5px;
+    margin-left: -130px;
   }
-
-  img {
-    grid-auto-columns: auto;
-  }
-  .content .logo {
-    height: 20px;
+  .title {
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .content .text {
@@ -139,5 +137,17 @@ footer p {
   .services div {
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem;
+  }
+}
+
+/*Landscape*/
+@media (max-height: 500px) {
+  .content .title,
+  .content .text {
+    display: none;
+  }
+
+  .content {
+    top: 0;
   }
 }
